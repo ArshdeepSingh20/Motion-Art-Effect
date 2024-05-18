@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+body{
+    background-color: #0E0F1A;
+}
+
+.title{
+  background-image: linear-gradient(90deg, #F87516 16%, #5E11FF 43%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.purchase-button{
+  background: linear-gradient(90deg, #5E11FF 30%, #F87516 100%);
+}
+
+.apply-card{
+  background: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+}
+
+button, img, h1,h2,p{
+  z-index: 100;
+}
